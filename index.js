@@ -15,6 +15,12 @@ app.get('/', function(req, res) {
     res.send(nunjucks.render('monographs.html', {"drug_data": drug_data }));
 });
 
+app.use('/public', express.static('public'));
+
+// NEXT STEPS:
+// - Figure out grid awesomeness
+// - research + add more drugs
+
 port = 3000;
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
