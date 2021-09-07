@@ -1,0 +1,53 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Mini Drug Monographs for your Travel Med Kits</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="canonical" href="https://html5-templates.com/" />
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+        <link rel="stylesheet" href="static/normalize.css">
+        <link rel="stylesheet" href="static/main.css">
+        <script src="static/modernizr-2.8.3.min.js"></script>
+        <script src="https://mozilla.github.io/nunjucks/files/nunjucks.min.js"></script>
+    </head>
+    <body>
+      {% for drug in drug_data %}
+        <div class="monograph">
+          <div class="packedOn">
+            <span class="name">{{ drug.name }}</span>
+          </div>
+          <div class="section">
+            <span class="label">Generic Name:</span>
+            <span class="content"></span>
+          </div>
+          <div class="packedOn">
+            <span class="packedOnText">Expires:</span>
+          </div>
+          <div class="section">
+            <span class="label">What It Does:</span>
+            <span class="content">Analgesic (painkiller) and sleep aid.</span>
+          </div>
+          <div class="section">
+            <span class="label">When To Use:</span>
+            <span class="content">Mild to moderate relief from pain associated with back, headache, muscle, arthritis, menstration, dental and/or cold/flu.</span>
+          </div>
+          <div class="section">
+            <span class="label">Active Ingredient:</span>
+            <span class="content">500 mg Acetaminophen, 25 mg Hydrochloride</span>
+          </div>
+          <div class="section">
+            <span class="label">Dosing Interval</span>
+            <span class="content">Adults: Every 4 hours</span>
+          </div>
+          <div class="section">
+            <span class="label">Not To Exceed:</span>
+            <span class="content">Adults: Max 4 grams in 24 hours</span>
+          </div>
+        </div>
+      {% endfor %}
+    </body>
+</html>
