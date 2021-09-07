@@ -9,11 +9,10 @@ nunjucks.configure('', {
     express: app
 });
 
-console.log(drug_data);
 app.get('/', function(req, res) {
     // res.send(nunjucks.renderString('Hello {{ username }}', { username: 'James' }));
     // res.send(nunjucks.render('test_template.html', { username: 'James' }));
-    res.send(nunjucks.render('monographs.html', drug_data));
+    res.send(nunjucks.render('monographs.html', {"drug_data": drug_data }));
 });
 
 port = 3000;
