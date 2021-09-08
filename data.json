@@ -11,14 +11,69 @@
     "source": "https://pdf.hres.ca/dpd_pm/00043015.PDF"
   },
   {
-    "name": "SUPER Strength Tylenol",
-    "genericName": "Acetaminophen",
-    "whatItDoes":"Analgesic (painkiller) and sleep aid",
-    "whenToUse":"Mild to moderate relief from pain associated with back, headache, muscle, arthritis, menstration, dental and/or cold/flu.",
-    "activeIngredient":"500 mg Acetaminophen, 25 mg Hydrochloride",
-    "dosingInterval": "Adults: Every 4 hours",
-    "notToExceed": "Adults: Max 4 grams in 24 hours",
-    "copies": 4,
-    "source": "https://pdf.hres.ca/dpd_pm/00043015.PDF"
+    "name": "Reactine",
+    "genericName": "Antihistimine",
+    "whatItDoes":"",
+    "whenToUse":"",
+    "activeIngredient":"",
+    "dosingInterval": "",
+    "notToExceed": "",
+    "copies": 1,
+    "source": ""
+  },
+  {
+    "name": "Advil",
+    "genericName": "Ibuprofen",
+    "whatItDoes":"",
+    "whenToUse":"",
+    "activeIngredient":"",
+    "dosingInterval": "",
+    "notToExceed": "",
+    "copies": 1,
+    "source": ""
+  },
+  {
+    "name": "Immodium",
+    "genericName": "",
+    "whatItDoes":"",
+    "whenToUse":"",
+    "activeIngredient":"",
+    "dosingInterval": "",
+    "notToExceed": "",
+    "copies": 1,
+    "source": ""
+  },
+{
+    "name": "Gaviscon",
+    "genericName": "",
+    "whatItDoes":"Antacid",
+    "whenToUse":"",
+    "activeIngredient":"",
+    "dosingInterval": "",
+    "notToExceed": "",
+    "copies": 1,
+    "source": ""
+},
+{
+    "name": "",
+    "genericName": "Cold and Flu",
+    "whatItDoes":"",
+    "whenToUse":"",
+    "activeIngredient":"",
+    "dosingInterval": "",
+    "notToExceed": "",
+    "copies": 1,
+    "source": ""
+  },
+  {
+    "name": "",
+    "genericName": "Cough Drops",
+    "whatItDoes":"",
+    "whenToUse":"",
+    "activeIngredient":"",
+    "dosingInterval": "",
+    "notToExceed": "",
+    "copies": 1,
+    "source": ""
   }
 ]

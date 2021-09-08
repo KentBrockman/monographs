@@ -14,6 +14,7 @@
     </head>
     <body>
       {% for drug in drug_data %}
+        {% for copy in range(drug.copies) %}
         <div class="monograph">
           <div class="packedOn">
             <span class="name">{{ drug.name }}</span>
@@ -46,6 +47,7 @@
             <span class="content">{{ drug.notToExceed }}</span>
           </div>
         </div>
+      {% endfor %}
       {% endfor %}
     </body>
 </html>

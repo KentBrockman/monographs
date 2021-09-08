@@ -18,8 +18,9 @@ app.get('/', function(req, res) {
 app.use('/public', express.static('public'));
 
 // NEXT STEPS:
-// - Figure out grid awesomeness
 // - research + add more drugs
+// - pick a font
+// - set margin on page?
 
 port = 3000;
 app.listen(port, () => {
