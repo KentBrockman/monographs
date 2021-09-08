@@ -319,4 +319,10 @@ textarea {
   width: 1.875in;
   height: 3.75in;
   margin: 0.03in;
+  page-break-inside: avoid;
+  display: inline-block;
 }
+
+/* .body { */
+  /* max-width: 8.5in; */
+/* } */
