@@ -284,7 +284,7 @@ textarea {
 
 .section {
   line-height: 1;
-  padding-top: 1/32in;
+  padding-top: 0.02in;
 }
 
 .label {
@@ -301,11 +301,6 @@ textarea {
   font-weight: bold;
 }
 
-.packedOn {
-  padding-top: 1/8in;
-  padding-bottom: 1/32in;
-}
-
 .packedOnText {
   font-weight: bold;
   font-size: 9pt;
@@ -316,13 +311,9 @@ textarea {
   border-style: dashed;
   padding-left: 0.0625in;
   padding-right: 0.0625in;
-  width: 1.875in;
-  height: 3.75in;
-  margin: 0.03in;
+  width: 1.8in;
+  height: 3.5in;
+  margin-top: 0.03in;
   page-break-inside: avoid;
   display: inline-block;
 }
-
-/* .body { */
-  /* max-width: 8.5in; */
-/* } */
