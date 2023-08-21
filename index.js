@@ -17,11 +17,6 @@ app.get('/', function(req, res) {
 
 app.use('/public', express.static('public'));
 
-// NEXT STEPS:
-// - research + add more drugs
-// - pick a font
-// - set margin on page?
-
 port = 3000;
 app.listen(port, () => {
   console.log(`Example app listening at http://localhost:${port}`)

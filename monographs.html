@@ -14,40 +14,40 @@
     </head>
     <body>
       {% for drug in drug_data %}
-        {% for copy in range(drug.copies) %}
-        <div class="monograph">
-          <div class="packedOn">
-            <span class="name">{{ drug.name }}</span>
+        {% for copy in range(0, drug.copies) %}
+          <div class="monograph">
+            <div class="packedOn">
+              <span class="name">{{ drug.name }}</span>
+            </div>
+            <div class="section">
+              <span class="label">Generic Name:</span>
+              <span class="content">{{ drug.genericName }}</span>
+            </div>
+            <div class="packedOn">
+              <span class="packedOnText">Expires:</span>
+            </div>
+            <div class="section">
+              <span class="label">What It Does:</span>
+              <span class="content">{{ drug.whatItDoes }}</span>
+            </div>
+            <div class="section">
+              <span class="label">When To Use:</span>
+              <span class="content">{{ drug.whenToUse }}</span>
+            </div>
+            <div class="section">
+              <span class="label">Active Ingredient:</span>
+              <span class="content">{{ drug.activeIngredient }}</span>
+            </div>
+            <div class="section">
+              <span class="label">Dosing Interval</span>
+              <span class="content">{{ drug.dosingInterval }}</span>
+            </div>
+            <div class="section">
+              <span class="label">Not To Exceed:</span>
+              <span class="content">{{ drug.notToExceed }}</span>
+            </div>
           </div>
-          <div class="section">
-            <span class="label">Generic Name:</span>
-            <span class="content">{{ drug.genericName }}</span>
-          </div>
-          <div class="packedOn">
-            <span class="packedOnText">Expires:</span>
-          </div>
-          <div class="section">
-            <span class="label">What It Does:</span>
-            <span class="content">{{ drug.whatItDoes }}</span>
-          </div>
-          <div class="section">
-            <span class="label">When To Use:</span>
-            <span class="content">{{ drug.whenToUse }}</span>
-          </div>
-          <div class="section">
-            <span class="label">Active Ingredient:</span>
-            <span class="content">{{ drug.activeIngredient }}</span>
-          </div>
-          <div class="section">
-            <span class="label">Dosing Interval</span>
-            <span class="content">{{ drug.dosingInterval }}</span>
-          </div>
-          <div class="section">
-            <span class="label">Not To Exceed:</span>
-            <span class="content">{{ drug.notToExceed }}</span>
-          </div>
-        </div>
-      {% endfor %}
+        {% endfor %}
       {% endfor %}
     </body>
 </html>
